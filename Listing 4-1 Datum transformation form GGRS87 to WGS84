@@ -1,0 +1,7 @@
+run o-help for a list of available commands
+E:\Program Files\QGIS 3.28.3>proj
+usage: proj [-bdeEfiIlmorsStTvVwW [args]] [+opt[=arg] ...] [file ...]
+
+E:\Program Files\QGIS 3.28.3> cs2cs "GGRS87" "WGS 84"
+45 20
+45d0'9.365"N 20d0'6.33"E 0.000   

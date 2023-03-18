@@ -1,0 +1,6 @@
+cs2cs +proj=latlong +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2019 +to +proj=latlong +datum=WGS84
+0dE     0dN 0.000cs2cs +proj=latlong +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2019 +to +proj=latlong +datum=WGS84
+45 34  
+45dE    34dN 0.000
+
+
