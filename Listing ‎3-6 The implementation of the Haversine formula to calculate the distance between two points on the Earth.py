@@ -1,5 +1,4 @@
 import math
-
 def spdist(lat1, lon1, lat2, lon2):
 
     D = 3959    #A
