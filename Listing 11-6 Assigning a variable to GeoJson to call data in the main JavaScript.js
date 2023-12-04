@@ -1,0 +1,6 @@
+var TexCounty = {
+    "type": "FeatureCollection",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                    
+    "features": [
+    { "type": "Feature", "properties": { "gid": 8, "statefp": "48", "countyfp": "327", "countyns": "01383949", "geoid": "48327", "name": "Menard", "namelsad": "Menard County", "lsad": "06", "classfp": "H1", "mtfcc": "G4020", "csafp": null, "cbsafp": null, "metdivfp": null, "funcstat": "A", "aland": 2336245914.0, "awater": 613558.0, "intptlat": "+30.8843655", "intptlon": "-099.8539896" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -99.821869, 31.087207 ], [ -99.818771, 31.087203 ], [ -99.809408, 31.087194 ], ] ] ] } }
