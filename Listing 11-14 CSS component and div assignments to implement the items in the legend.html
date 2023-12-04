@@ -1,0 +1,48 @@
+<style>
+    #map {
+      height: 900px;
+      width: 100%;
+    }
+
+    #legend {
+  background-color: #fff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: 300px; /* Adjust the width as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.legend-icon {
+  width: 30px; /* Adjust the icon size as needed */
+  height: 30px; /* Adjust the icon size as needed */
+  margin-right: 10px;
+}
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="legend">
+    <div class="legend-item">
+      <img class="legend-icon" src="https://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png">
+      <span>Light traffic</span>
+    </div>
+    <div class="legend-item">
+      <img class="legend-icon" src="https://maps.gstatic.com/mapfiles/ms2/micons/yellow-dot.png">
+      <span>Moderate traffic</span>
+    </div>
+    <div class="legend-item">
+      <img class="legend-icon" src="https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png">
+      <span>Heavy traffic</span>
+    </div>
+  </div>
+</body>
+</html>
