@@ -5,6 +5,9 @@ Welcome to the official code repository for the book "GIS for Programmers." This
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13.4-blue.svg)
+![PostGIS](https://img.shields.io/badge/PostGIS-3.1.4-brightgreen.svg)
 
 ## Libraries
 
