@@ -15,20 +15,20 @@ This repository contains practical implementations of Geographic Information Sys
 # Structure
 The repository follows a structured organization, with each chapter's code residing in its dedicated directory. The naming conventions for files and codes reflect the listings in the book. Please note that, while comments are added in Python using #, they should be removed for other languages like JavaScript to ensure code functionality.
 
-#Getting Started
+# Getting Started
 To get started, clone the repository to your local machine using the following command:
 
 ```bash
 Copy code
 git clone https://github.com/your-username/gis-for-programmers.git
 ```
-# Navigate to the specific chapter or example you are interested in and explore the code. Make sure to refer to the book for detailed explanations of each example.
+Navigate to the specific chapter or example you are interested in and explore the code. Make sure to refer to the book for detailed explanations of each example.
 
 
-Contributing
+# Contributing
 We encourage collaboration and welcome contributions. If you find issues or errors or have enhancements to suggest, please feel free to submit a pull request. Refer to our Contribution Guidelines for more details.
 
-License
+# License
 This code is licensed under the MIT License, allowing for both personal and commercial use. Refer to the license file for more information.
 
 Happy coding!
