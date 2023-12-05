@@ -50,7 +50,7 @@ The repository follows a structured organization, with each chapter's code resid
 To get started, clone the repository to your local machine using the following command:
 
 ```bash
-Copy code
+
 git clone https://github.com/your-username/gis-for-programmers.git
 ```
 Navigate to the specific chapter or example you are interested in and explore the code. Make sure to refer to the book for detailed explanations of each example.
