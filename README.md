@@ -31,6 +31,11 @@ Welcome to the official code repository for the book "GIS for Programmers." This
 ![Pillow](https://img.shields.io/badge/Pillow-8.3.2-brightgreen.svg)
 ![OGR](https://img.shields.io/badge/OGR-3.3.0-brightgreen.svg)
 ![Laspy](https://img.shields.io/badge/Laspy-1.7.0-brightgreen.svg)
+![Open3D](https://img.shields.io/badge/Open3D-0.13.0-brightgreen.svg)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0.24.2-brightgreen.svg)
+![OSGeo](https://img.shields.io/badge/OSGeo-1.2.3-brightgreen.svg)
+![TQDM](https://img.shields.io/badge/TQDM-4.62.2-brightgreen.svg)
+![Webbrowser](https://img.shields.io/badge/Webbrowser-0.5.2-brightgreen.svg)
 
 # Introduction
 This repository contains practical implementations of Geographic Information Systems (GIS) concepts for programmers and developers. The code is organized by chapters, providing an easy-to-navigate structure for finding and exploring examples related to specific topics.
