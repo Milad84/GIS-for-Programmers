@@ -2,7 +2,6 @@
 
 Welcome to the official code repository for the book "GIS for Programmers." This repository is a comprehensive collection of code examples, scripts, and projects designed to accompany the book. Whether you are a novice eager to grasp fundamental GIS principles or an experienced developer aiming to integrate spatial data into your applications seamlessly, this repository is your ultimate resource.
 
-# GIS Intersection Finder
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)
