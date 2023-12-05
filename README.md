@@ -9,23 +9,24 @@ Welcome to the official code repository for the book "GIS for Programmers." This
 
 ## Libraries
 
-- ![Geopandas](https://img.shields.io/badge/Geopandas-0.10.2-brightgreen.svg)
-- ![Shapely](https://img.shields.io/badge/Shapely-2.0.0-brightgreen.svg)
-- ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-brightgreen.svg)
-- ![NumPy](https://img.shields.io/badge/NumPy-1.21.2-brightgreen.svg)
-- ![Rasterio](https://img.shields.io/badge/Rasterio-1.2.6-brightgreen.svg)
-- ![Rasterstats](https://img.shields.io/badge/Rasterstats-0.15.0-brightgreen.svg)
-- ![Pyproj](https://img.shields.io/badge/Pyproj-3.2.1-brightgreen.svg)
-- ![GDAL](https://img.shields.io/badge/GDAL-3.3.0-brightgreen.svg)
-- ![Scipy](https://img.shields.io/badge/Scipy-1.7.3-brightgreen.svg)
-- ![Earth Engine](https://img.shields.io/badge/Earth%20Engine-v0.1.282-brightgreen.svg)
-- ![geemap](https://img.shields.io/badge/geemap-0.8.15-brightgreen.svg)
-- ![Folium](https://img.shields.io/badge/Folium-0.12.1-brightgreen.svg)
-- ![Psycopg2](https://img.shields.io/badge/Psycopg2-2.9.2-brightgreen.svg)
-- ![GeoJSON](https://img.shields.io/badge/GeoJSON-2.5.0-brightgreen.svg)
-- ![Flask](https://img.shields.io/badge/Flask-2.1.1-brightgreen.svg)
-- ![xlrd](https://img.shields.io/badge/xlrd-2.0.1-brightgreen.svg)
-- - ![Pandas](https://img.shields.io/badge/Pandas-1.3.3-brightgreen.svg)
+![Geopandas](https://img.shields.io/badge/Geopandas-0.10.2-brightgreen.svg)
+![Shapely](https://img.shields.io/badge/Shapely-2.0.0-brightgreen.svg)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-brightgreen.svg)
+![NumPy](https://img.shields.io/badge/NumPy-1.21.2-brightgreen.svg)
+![Rasterio](https://img.shields.io/badge/Rasterio-1.2.6-brightgreen.svg)
+![Rasterstats](https://img.shields.io/badge/Rasterstats-0.15.0-brightgreen.svg)
+![Pyproj](https://img.shields.io/badge/Pyproj-3.2.1-brightgreen.svg)
+![GDAL](https://img.shields.io/badge/GDAL-3.3.0-brightgreen.svg)
+![Scipy](https://img.shields.io/badge/Scipy-1.7.3-brightgreen.svg)
+![Earth Engine](https://img.shields.io/badge/Earth%20Engine-v0.1.282-brightgreen.svg)
+![geemap](https://img.shields.io/badge/geemap-0.8.15-brightgreen.svg)
+![Folium](https://img.shields.io/badge/Folium-0.12.1-brightgreen.svg)
+![Psycopg2](https://img.shields.io/badge/Psycopg2-2.9.2-brightgreen.svg)
+![GeoJSON](https://img.shields.io/badge/GeoJSON-2.5.0-brightgreen.svg)
+![Flask](https://img.shields.io/badge/Flask-2.1.1-brightgreen.svg)
+![xlrd](https://img.shields.io/badge/xlrd-2.0.1-brightgreen.svg)
+![Pandas](https://img.shields.io/badge/Pandas-1.3.3-brightgreen.svg)
+
 # Introduction
 This repository contains practical implementations of Geographic Information Systems (GIS) concepts for programmers and developers. The code is organized by chapters, providing an easy-to-navigate structure for finding and exploring examples related to specific topics.
 
