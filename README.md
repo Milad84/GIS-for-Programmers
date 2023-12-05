@@ -25,6 +25,8 @@ Welcome to the official code repository for the book "GIS for Programmers." This
 ![Flask](https://img.shields.io/badge/Flask-2.1.1-brightgreen.svg)
 ![xlrd](https://img.shields.io/badge/xlrd-2.0.1-brightgreen.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-1.3.3-brightgreen.svg)
+![Mpl_toolkits](https://img.shields.io/badge/Mpl_toolkits-0.6.0-brightgreen.svg)
+![Cartopy](https://img.shields.io/badge/Cartopy-0.20.1-brightgreen.svg)
 
 # Introduction
 This repository contains practical implementations of Geographic Information Systems (GIS) concepts for programmers and developers. The code is organized by chapters, providing an easy-to-navigate structure for finding and exploring examples related to specific topics.
