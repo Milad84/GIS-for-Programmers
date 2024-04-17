@@ -1,7 +1,13 @@
-import matplotlib.pyplot as plt    #A  
-plt.plot([1,3,3,4,7,9], [1,4,2,8,10,9], ‘ro’)    #B
-plt.show()    #C
-#A Import needed libraries
-#B Use the plot function on coordinates and set the output as red (‘ro’)
-#C Plot the result
+import math
+def haversine(lat1, lon1, lat2, lon2):
+R = 6371 # Radius of the Earth in kilometers
+dlat = math.radians(lat2 - lat1)
+dlon = math.radians(lon2 - lon1)
+a = math.sin(dlat / 2) * math.sin(dlat / 2) +
+math.cos(math.radians(lat1)) \
+* math.cos(math.radians(lat2)) * math.sin(dlon / 2) * math.sin(dlon
+/ 2)
+c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+distance = R * c
+return distance
 
