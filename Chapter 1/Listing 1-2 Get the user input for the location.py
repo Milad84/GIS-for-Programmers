@@ -1,5 +1,7 @@
+# Sample list of restaurants with their coordinates
 restaurants = [
-{"name": "Restaurant A", "lat": 40.730610, "lon": -73.935242},
-{"name": "Restaurant B", "lat": 40.741310, "lon": -73.994580},
-{"name": "Restaurant C", "lat": 40.706000, "lon": -74.008760},
+    {"name": "McDonald's", "lat": 40.7138, "lon": -74.0065},
+    {"name": "Chick-fil-A", "lat": 40.7188, "lon": -74.0050},
+    {"name": "Burger King", "lat": 40.7028, "lon": -74.0100},
+    {"name": "Panda Express", "lat": 40.7288, "lon": -74.0000},
 ]
