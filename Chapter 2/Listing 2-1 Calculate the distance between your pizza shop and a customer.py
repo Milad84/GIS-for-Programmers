@@ -5,7 +5,7 @@ api_key = 'Your Google Maps API'    #A
 start_coordinates = '37.7749,-122.4194'  
 destination_coordinates = '36.0522,-119.2437'    #B
 
-url =    #C f'https://maps.googleapis.com/maps/api/directions/json?origin={start_coordinates}&destination={destination_coordinates}&mode=driving&key={api_key}'
+url = f'https://maps.googleapis.com/maps/api/directions/json?origin={start_coordinates}&destination={destination_coordinates}&mode=driving&key={api_key}'    #C
 response = requests.get(url)
 data = response.json()
 
