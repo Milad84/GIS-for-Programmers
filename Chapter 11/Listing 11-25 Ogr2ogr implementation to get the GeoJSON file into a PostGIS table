@@ -1,1 +1,0 @@
-ogr2ogr -f "PostgreSQL" PG:"dbname=postgres user=postgres port=5433 password="YOUR_PASSWORD "" "D:\outputCh11.geojson" -nln respoints -append
