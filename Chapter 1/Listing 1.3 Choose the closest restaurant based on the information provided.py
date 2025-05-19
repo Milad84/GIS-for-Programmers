@@ -26,4 +26,3 @@ for restaurant in nearby_restaurants:
 print("\nFeel free to modify the user coordinates, radius, and restaurant data to see how the results change. This will help you understand how the Haversine formula works and verify your implementation.")
 
 
-
