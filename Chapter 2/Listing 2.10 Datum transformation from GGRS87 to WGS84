@@ -1,0 +1,11 @@
+run o-help for a list of available commands
+E:\Program Files\QGIS 3.28.3>proj    #A
+usage: proj [-bdeEfiIlmorsStTvVwW [args]] [+opt[=arg] ...] [file ...]
+
+E:\Program Files\QGIS 3.28.3> cs2cs "GGRS87" "WGS 84"    #B
+45 20    #C
+45d0'9.365"N 20d0'6.33"E 0.000    #D
+#A Call the library
+#B Use the command cs2cs to transform one CRS to another 
+#C Input coordinates in the original CRS
+#D Output coordinates in the new CRS (WGS 84)
