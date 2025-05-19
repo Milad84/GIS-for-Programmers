@@ -34,3 +34,11 @@ if 'routes' in data and len(data['routes']) > 0:    #D
 
 else:
     print("No route found.")
+#A Replace with your Google Maps API key
+#B Replace with your starting and destination coordinates (Latitude, Longitude)
+#C Make the request
+#D Checking if the response contains route information 
+#E Extracting the first leg of the route, which contains the duration and distance information 
+#F Getting the duration in human-readable format and seconds
+#G Getting the distance in human-readable format and meters
+#H Converting distance from meters to miles
