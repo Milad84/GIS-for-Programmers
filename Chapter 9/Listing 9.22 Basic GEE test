@@ -1,0 +1,13 @@
+var studyArea = ee.Geometry.Rectangle([-70.0, -5.0, -55.0, 0.0]);    #A
+
+var staticImage = ee.Image(1).clip(studyArea);    #B
+
+Map.centerObject(studyArea);    #C
+Map.addLayer(staticImage, {}, 'Static Image');
+
+print('Hello, Google Earth Engine!');
+
+print('Study Area:', studyArea);
+#A Define a study area (e.g., a rectangular region of interest).
+#B Create a static image.
+#C Display the image
