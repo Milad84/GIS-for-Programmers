@@ -1,4 +1,3 @@
-roi = ee.Geometry.Rectangle([-122.60, 37.45, -122.35, 37.65])    #A
 image = collection.first()    #A
 
 smaller_roi = roi.buffer(0.01)    #B
