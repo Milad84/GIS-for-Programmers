@@ -1,5 +1,0 @@
-cs2cs +proj=latlong +ellps=clrk66 +nadgrids=ntv1_can.dat +to +proj=latlong +ellps=GRS80 +datum=NAD83
-0dE     0dN 0.000cs2cs +proj=latlong +ellps=clrk66 +nadgrids=ntv1_can.dat +to +proj=latlong +ellps=GRS80 +datum=NAD83
--100 45
-100dW   45dN 0.000
-
