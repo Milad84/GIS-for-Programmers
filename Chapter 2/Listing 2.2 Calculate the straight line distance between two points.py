@@ -21,6 +21,3 @@ print(f"The distance between New York City and Los Angeles is approximately {dis
 #A Convert degrees to radians 
 #B Earth's radius in kilometers
 #C Haversine formula for distance calculation
-
-
-
