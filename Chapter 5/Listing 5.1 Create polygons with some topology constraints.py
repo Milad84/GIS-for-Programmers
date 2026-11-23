@@ -1,5 +1,5 @@
 from shapely.geometry import Point, Polygon
-from shapely.ops import cascaded_union
+from shapely.ops import unary_union as cascaded_union
 import matplotlib.pyplot as plt
 
 def create_polygons(points):
