@@ -1,13 +1,13 @@
 from shapely.geometry import Polygon
 import matplotlib.pyplot as plt
-from matplotlib.patches import polygon as mpl_polygon
+from matplotlib.patches import Polygon as mpl_polygon
 
 def plot_polygon(polygon, ax, color):
     mpl_poly = mpl_polygon(list(polygon.exterior.coords), facecolor=color, alpha=0.7)
     ax.add_patch(mpl_poly)
 
 def symmetric_difference(layer1, layer2):
-    
+
     polygon1 = Polygon(layer1)    #A
     polygon2 = Polygon(layer2)
 
@@ -22,14 +22,14 @@ def symmetric_difference(layer1, layer2):
 
     if result.geom_type == 'Polygon':    #E
         plot_polygon(result, ax, 'green')
-    elif result.geom_type == 'MultiPolygon':
+    elif result.geom_type == 'Polygon':
         for poly in result:
             plot_polygon(poly, ax, 'green')
 
     shared_portion = polygon1.intersection(polygon2)    #F
     if shared_portion.geom_type == 'Polygon':
         plot_polygon(shared_portion, ax, 'yellow')
-    elif shared_portion.geom_type == 'MultiPolygon':
+    elif shared_portion.geom_type == 'Polygon':
         for poly in shared_portion:
             plot_polygon(poly, ax, 'yellow')
 
@@ -56,6 +56,7 @@ plt.ylim(min(layer2)[1] - 1, max(layer2)[1] + 1)
 plt.show()
 
 symmetric_difference(layer1, layer2)    #G
+
 #A Create Shapely polygons from input layers
 #B Plot layer1 in red
 #C Plot layer2 in blue
