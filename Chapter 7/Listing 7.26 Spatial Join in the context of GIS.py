@@ -31,7 +31,7 @@ gdf_additional_points = gpd.GeoDataFrame(additional_points_data, crs='EPSG:4326'
 
 gdf_points_all = gpd.GeoDataFrame(pd.concat([gdf_points, gdf_additional_points], ignore_index=True), crs='EPSG:4326')    #E
 
-joined_gdf = gpd.sjoin(gdf_points_all, gdf_polygons, how='inner', op='within')    #F
+joined_gdf = gpd.sjoin(gdf_points_all, gdf_polygons, how='inner', predicate='within')    #F
 
 joined_gdf.to_csv('joined_data.csv', index=False)    #G
 
