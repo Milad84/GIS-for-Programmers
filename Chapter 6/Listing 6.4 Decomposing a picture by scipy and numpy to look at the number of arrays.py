@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
-from scipy import misc
+from scipy.datasets import face 
 
-img = misc.face()
+img = face()
 plt.imshow(img)
 plt.show()
 print (img.shape)
