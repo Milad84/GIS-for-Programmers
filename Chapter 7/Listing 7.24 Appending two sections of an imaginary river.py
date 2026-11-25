@@ -1,3 +1,4 @@
+import pandas as pd
 import geopandas as gpd
 from shapely.geometry import LineString
 import matplotlib.pyplot as plt
@@ -15,7 +16,7 @@ river2_data = {    #B
 river1_gdf = gpd.GeoDataFrame(river1_data, crs='EPSG:4326')    #C
 river2_gdf = gpd.GeoDataFrame(river2_data, crs='EPSG:4326')
 
-appended_river_gdf = river1_gdf.append(river2_gdf)    #D
+appended_river_gdf = pd.concat([river1_gdf,river2_gdf])    #D
 
 fig, axs = plt.subplots(1, 3, figsize=(18, 6), sharex=True, sharey=True)
 
